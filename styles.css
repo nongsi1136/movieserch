@@ -1,0 +1,40 @@
+/* styles.css */
+/* 여기에 스타일을 추가하세요 */
+
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap");
+
+* {
+  font-family: "Hahmlet", serif;
+}
+
+body {
+  background-color: black;
+}
+
+.p-5 {
+  color: white;
+
+  background-image: url("https://bot-log-product.s3.ap-northeast-2.amazonaws.com/product/netflix/still/60032294-%EC%9D%B4%EC%9B%83%EC%A7%91_%ED%86%A0%ED%86%A0%EB%A1%9C.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.space {
+  height: 50px; /* 공간의 높이 조정 */
+}
+
+#movieList {
+  color: white;
+}
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

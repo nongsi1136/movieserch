@@ -1,0 +1,23 @@
+# 환경 변수 파일
+.env
+
+# Node.js 모듈 폴더
+node_modules/
+
+# 로컬 환경 설정 파일
+.env.local
+
+# 로그 파일
+*.log
+
+# macOS에서 생성되는 시스템 파일
+.DS_Store
+
+# Windows에서 생성되는 Thumbs.db 파일
+Thumbs.db
+
+# npm 패키지의 캐시 폴더
+.npm
+
+# VSCode 설정 폴더
+.vscode/
